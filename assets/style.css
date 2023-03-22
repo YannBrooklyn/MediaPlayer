@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}
+
+.progressbar {
+    background: red;
+    color: red;
+}
+
+.progressbar::-moz-progress-bar {
+    background: red;
+}
+
+.progressbar::-webkit-progress-value {
+    background: red;
+    color: red;
+    flex-basis: red;
+}
